@@ -20,6 +20,7 @@ namespace Task1.Statistics
             double product = 1.0;
             int evenCount = 0;
 
+            // пдсчвет суммы и произв четн чисел
             foreach (int num in numbers)
             {
                 sum += num;
@@ -30,6 +31,7 @@ namespace Task1.Statistics
                 }
             }
 
+            // расчет среднего арифм и элементов больше него
             double average = (double)sum / numbers.Length;
 
             int greaterThanAverageCount = 0;
